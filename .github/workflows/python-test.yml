@@ -27,7 +27,7 @@ jobs:
         pip install -r requirments.txt
     
     - name: Run Tests
-      uses: |
+      run: |
         export PYTHONPATH=$PYTHONPATH:$(pwd)
         pytest -v
     
