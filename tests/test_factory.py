@@ -19,5 +19,5 @@ def test_invalid_type():
     assert False, "expected valueError for unknown repository"
   
   except ValueError as ve:
-    assert str(ve) == "unkonw repository type"
+    assert str(ve) == "Unknown repository type"
 
